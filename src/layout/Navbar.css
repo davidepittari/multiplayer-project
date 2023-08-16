@@ -1,0 +1,23 @@
+.darkMode svg{
+    fill: #E6E6E6;
+}
+
+.darkMode svg circle{
+    fill: #F7444E;
+}
+
+.user svg{
+    fill: #ADB5BD;
+    transition: all 0.3s;
+}
+
+.glass,
+.menu svg {
+    fill: #E6E6E6;
+    transition: all 0.3s;
+}
+
+.user:hover svg,
+.glass:hover svg {
+    fill: #F7444E;
+}
