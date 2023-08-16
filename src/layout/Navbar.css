@@ -17,7 +17,15 @@
     transition: all 0.3s;
 }
 
-.user:hover svg,
-.glass:hover svg {
-    fill: #F7444E;
+.searchBar input[type="text"]{
+    background-color: #F7444E;
+}
+
+.searchBar input[type="text"]::placeholder {
+    color: #FDD0D3; /* Cambia questo colore come preferisci */
+    outline: none;
+}
+
+.searchBar svg {
+    fill: #ffffff;
 }

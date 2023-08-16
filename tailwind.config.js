@@ -28,6 +28,8 @@ module.exports = {
       'third': '#F7444E',
       'fourth': '#ADB2B1',
       'fifth': '#F7D039',
+      'sixth': '#181818',
+      'seventh': '#FDD0D3',
     },
     fontFamily: {
       maven: ['Maven Pro', 'sans-serif'],
