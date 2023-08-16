@@ -3,6 +3,9 @@ import React, { useState } from "react";
 function DropDownMenu(props) {
   const [isOpen, setIsOpen] = useState(false);
 
+  const dropMenuSectionMain = ["RECENSIONI", "NEWS", "VIDEO", "LIVE", "GIOCHI"];
+  const dropMenuSectionPlatform = ["TUTTE", "PC", "PLAYSTATION 5", "PLAYSTATION 4", "XBOX ONE", "XBOX SERIES X", "NINTENDO SWITCH", "IOS", "ANDROID", "GOOGLE STADIA"];
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -14,10 +17,14 @@ function DropDownMenu(props) {
           {props.children}
         </button>
         {isOpen && (
-          <ul className="absolute bg-primary border-t-4 border-third w-screen left-0 top-full text-secondary">
-            <li>Opzione 1</li>
-            <li>Opzione 2</li>
-            <li>Opzione 3</li>
+          <ul className="absolute flex flew-row flex-wrap bg-[#181818] border-t-4 border-third w-screen left-0 top-full text-secondary">
+            {dropMenuSectionMain.map((item) => 
+                <li className="w-1/2 px-4 py-2">{item}</li>
+            )}
+            <div className="w-full bg-primary h-[0.5px] m-4"/>
+            {dropMenuSectionPlatform.map((item) => 
+                <li className="w-1/2 px-4 py-2">{item}</li>
+            )}
           </ul>
         )}
       </li>
