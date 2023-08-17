@@ -9,14 +9,12 @@ import img from "../../assets/img/frost-planet-concept-art.jpeg";
 
 //CSS
 import "./ArticleCard.css";
+import CommentBubble from "../other/CommentBubble";
 
-function ArticleCard({title, category, tag, comment}) {
+function ArticleCard({ title, category, tag, comment }) {
   return (
     <article className="relative h-screen-vh w-fit">
-      <figure className="absolute comment-card top-0 right-0 px-1 bg-third rounded-bl flex flex-row items-center justify-center text-white font-bold z-10">
-        <Comment height="1em" />
-        <p className="pl-1">{comment}</p>
-      </figure>
+      <CommentBubble comment={comment} />
       <figure className="h-full bg-black image-container">
         <img
           className="block h-3/4 object-cover object-center"
@@ -29,7 +27,9 @@ function ArticleCard({title, category, tag, comment}) {
           <p className="px-2 text-fourth">{category}</p>
           <p className="text-fifth">{tag}</p>
         </div>
-        <h1 className="text-2xl m-2 px-2 tracking- leading-none text-white">{title}</h1>
+        <h1 className="text-2xl m-2 px-2 tracking- leading-none text-white">
+          {title}
+        </h1>
       </div>
     </article>
   );

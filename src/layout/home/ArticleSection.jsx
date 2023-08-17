@@ -23,7 +23,7 @@ function ArticleSection() {
   const firstArticle = newsTest.at(0);
 
   return (
-    <section className="border-third border-t-4 border-b-4 bg-sixth overflow-x-auto">
+    <section className="border-third border-t-4 border-b-4 overflow-x-auto">
       <ArticleCard
         title={firstArticle.title}
         tag={firstArticle.tag}
@@ -37,7 +37,7 @@ function ArticleSection() {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Scrollbar]}
         className="mySwiper"
       >
         {newsTest.slice(1).map((item, index) => (
