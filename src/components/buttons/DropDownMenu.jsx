@@ -56,7 +56,7 @@ function DropDownMenu(props) {
           {props.children}
         </button>
         {isOpen && (
-          <ul className="absolute flex flew-row flex-wrap bg-sixth border-t-4 border-third w-screen left-0 top-full text-secondary font-bold tracking-tighter p-2">
+          <ul className="absolute flex flew-row flex-wrap bg-sixth border-t-4 border-third w-screen left-0 top-full text-secondary font-bold tracking-tighter p-2 z-50">
             {dropMenuSectionMain.map((item) => (
               <li className="w-1/2 pr-2 py-2 flex flex-row items-center">
                 <div className="pr-1">{item.icon}</div>

@@ -12,7 +12,7 @@ import "./ArticleCard.css";
 
 function ArticleCard({title, category, tag, comment}) {
   return (
-    <article className="relative h-screen-vh">
+    <article className="relative h-screen-vh w-fit">
       <figure className="absolute comment-card top-0 right-0 px-1 bg-third rounded-bl flex flex-row items-center justify-center text-white font-bold z-10">
         <Comment height="1em" />
         <p className="pl-1">{comment}</p>
