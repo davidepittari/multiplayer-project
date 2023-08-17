@@ -36,6 +36,9 @@ module.exports = {
       montserrat: ['Montserrat', 'sans-serif'],
     },
     extend: {
+      height: {
+        'screen-vh': '100vw',
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
