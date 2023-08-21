@@ -15,9 +15,9 @@ function NewsSection() {
   ];
 
   return (
-    <section>
+    <section className="p-4">
       {newsChunks.map((chunk, chunkIndex) => (
-        <div key={chunkIndex}>
+        <div key={chunkIndex} className="flex flex-row flex-wrap">
           {chunk.map((news, newsIndex) => (
             <React.Fragment key={newsIndex}>
               <NewsCard
