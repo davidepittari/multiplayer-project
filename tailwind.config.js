@@ -30,6 +30,8 @@ module.exports = {
       'fifth': '#F7D039',
       'sixth': '#181818',
       'seventh': '#FDD0D3',
+      'eight': '#666666',
+      'ads': '#1D1D1D',
     },
     fontFamily: {
       maven: ['Maven Pro', 'sans-serif'],
@@ -37,7 +39,7 @@ module.exports = {
     },
     extend: {
       height: {
-        'screen-vh': '100vw',
+        'screen-vw': '100vw',
       },
       spacing: {
         '128': '32rem',

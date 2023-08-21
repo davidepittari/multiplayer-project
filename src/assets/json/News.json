@@ -1,63 +1,422 @@
 [
-    {
-      "title": "Anteprima esclusiva: Le novità nel mondo di CyberRealm",
-      "tag": "CYBERREALM",
-      "category": "SPECIALE",
-      "comment": "1"
-    },
-    {
-      "title": "Q&A: Domande e risposte su FantasyQuest",
-      "tag": "FANTASYQUEST",
-      "category": "INTERVISTA",
-      "comment": "4"
-    },
-    {
-      "title": "Guida definitiva all'esplorazione in GalacticFrontier",
-      "tag": "GALACTICFRONTIER",
-      "category": "GUIDA",
-      "comment": "7"
-    },
-    {
-      "title": "Intervista con lo sviluppatore di BattleConquest: Dietro le quinte dell'azione",
-      "tag": "BATTLECONQUEST",
-      "category": "INTERVISTA",
-      "comment": "2"
-    },
-    {
-      "title": "Recensione di MythicRealms: Un'epica avventura di ruolo",
-      "tag": "MYTHICREALMS",
-      "category": "RECENSIONE",
-      "comment": "6"
-    },
-    {
-      "title": "Prossime uscite nel mondo di SpaceLegends: Cosa ci attende?",
-      "tag": "SPACELEGENDS",
-      "category": "NEWS",
-      "comment": "3"
-    },
-    {
-      "title": "Esplorando OpenWorld: Segreti nascosti e missioni secondarie",
-      "tag": "OPENWORLD",
-      "category": "GUIDA",
-      "comment": "5"
-    },
-    {
-      "title": "Retrogaming Reloaded: Rivivere i classici con ModernRetro",
-      "tag": "MODERNRETRO",
-      "category": "SPECIALE",
-      "comment": "1"
-    },
-    {
-      "title": "Intervista con l'artista di PixelVerse: Creare mondi in 8-bit",
-      "tag": "PIXELVERSE",
-      "category": "INTERVISTA",
-      "comment": "4"
-    },
-    {
-      "title": "Le sfide competitive di EvoArena: Preparati alla battaglia!",
-      "tag": "EVOARENA",
-      "category": "NEWS",
-      "comment": "2"
-    }
-  ]
-  
+  {
+    "comment": "25",
+    "timing": "12 MINUTI FA",
+    "category": "GAMING",
+    "tag": "PLAYSTATION",
+    "title": "Annunciato nuovo titolo esclusivo per PlayStation: I giocatori non vedono l'ora"
+  },
+  {
+    "comment": "18",
+    "timing": "30 MINUTI FA",
+    "category": "GAMING",
+    "tag": "XBOX",
+    "title": "Xbox Game Pass si espande: Ulteriori giochi incredibili aggiunti alla libreria"
+  },
+  {
+    "comment": "12",
+    "timing": "1 ORA FA",
+    "category": "GAMING",
+    "tag": "PC",
+    "title": "Nuova generazione di schede grafiche: Prestazioni mai viste prima"
+  },
+  {
+    "comment": "15",
+    "timing": "2 ORE FA",
+    "category": "GAMING",
+    "tag": "NINTENDO",
+    "title": "In arrivo un nuovo gioco Nintendo: Avventura colorata nel mondo dei funghi"
+  },
+  {
+    "comment": "8",
+    "timing": "3 ORE FA",
+    "category": "GAMING",
+    "tag": "MOBILE",
+    "title": "Esperienza di gioco mobile rivoluzionaria: Grafica da console sul tuo smartphone"
+  },
+  {
+    "comment": "7",
+    "timing": "4 ORE FA",
+    "category": "GAMING",
+    "tag": "RETRO",
+    "title": "Torna indietro nel tempo con i classici: Console retrò in edizione limitata"
+  },
+  {
+    "comment": "22",
+    "timing": "5 ORE FA",
+    "category": "GAMING",
+    "tag": "VR",
+    "title": "Realtà virtuale all'avanguardia: Esplora mondi digitali con il nuovo visore"
+  },
+  {
+    "comment": "14",
+    "timing": "6 ORE FA",
+    "category": "GAMING",
+    "tag": "ESPORTS",
+    "title": "Competizioni di esports in crescita: Nuovi talenti emergono nel mondo del gaming"
+  },
+  {
+    "comment": "11",
+    "timing": "7 ORE FA",
+    "category": "GAMING",
+    "tag": "INDIE",
+    "title": "Scopri il nuovo gioco indie: Una storia avvincente creata da uno sviluppatore solitario"
+  },
+  {
+    "comment": "30",
+    "timing": "8 ORE FA",
+    "category": "GAMING",
+    "tag": "STREAMING",
+    "title": "La piattaforma di streaming di giochi introduce nuove funzionalità: Gioca senza download"
+  },
+  {
+    "comment": "25",
+    "timing": "12 MINUTI FA",
+    "category": "GAMING",
+    "tag": "PLAYSTATION",
+    "title": "Annunciato nuovo titolo esclusivo per PlayStation: I giocatori non vedono l'ora"
+  },
+  {
+    "comment": "18",
+    "timing": "30 MINUTI FA",
+    "category": "GAMING",
+    "tag": "XBOX",
+    "title": "Xbox Game Pass si espande: Ulteriori giochi incredibili aggiunti alla libreria"
+  },
+  {
+    "comment": "12",
+    "timing": "1 ORA FA",
+    "category": "GAMING",
+    "tag": "PC",
+    "title": "Nuova generazione di schede grafiche: Prestazioni mai viste prima"
+  },
+  {
+    "comment": "15",
+    "timing": "2 ORE FA",
+    "category": "GAMING",
+    "tag": "NINTENDO",
+    "title": "In arrivo un nuovo gioco Nintendo: Avventura colorata nel mondo dei funghi"
+  },
+  {
+    "comment": "8",
+    "timing": "3 ORE FA",
+    "category": "GAMING",
+    "tag": "MOBILE",
+    "title": "Esperienza di gioco mobile rivoluzionaria: Grafica da console sul tuo smartphone"
+  },
+  {
+    "comment": "7",
+    "timing": "4 ORE FA",
+    "category": "GAMING",
+    "tag": "RETRO",
+    "title": "Torna indietro nel tempo con i classici: Console retrò in edizione limitata"
+  },
+  {
+    "comment": "22",
+    "timing": "5 ORE FA",
+    "category": "GAMING",
+    "tag": "VR",
+    "title": "Realtà virtuale all'avanguardia: Esplora mondi digitali con il nuovo visore"
+  },
+  {
+    "comment": "14",
+    "timing": "6 ORE FA",
+    "category": "GAMING",
+    "tag": "ESPORTS",
+    "title": "Competizioni di esports in crescita: Nuovi talenti emergono nel mondo del gaming"
+  },
+  {
+    "comment": "11",
+    "timing": "7 ORE FA",
+    "category": "GAMING",
+    "tag": "INDIE",
+    "title": "Scopri il nuovo gioco indie: Una storia avvincente creata da uno sviluppatore solitario"
+  },
+  {
+    "comment": "30",
+    "timing": "8 ORE FA",
+    "category": "GAMING",
+    "tag": "STREAMING",
+    "title": "La piattaforma di streaming di giochi introduce nuove funzionalità: Gioca senza download"
+  },
+  {
+    "comment": "25",
+    "timing": "12 MINUTI FA",
+    "category": "GAMING",
+    "tag": "PLAYSTATION",
+    "title": "Annunciato nuovo titolo esclusivo per PlayStation: I giocatori non vedono l'ora"
+  },
+  {
+    "comment": "18",
+    "timing": "30 MINUTI FA",
+    "category": "GAMING",
+    "tag": "XBOX",
+    "title": "Xbox Game Pass si espande: Ulteriori giochi incredibili aggiunti alla libreria"
+  },
+  {
+    "comment": "12",
+    "timing": "1 ORA FA",
+    "category": "GAMING",
+    "tag": "PC",
+    "title": "Nuova generazione di schede grafiche: Prestazioni mai viste prima"
+  },
+  {
+    "comment": "15",
+    "timing": "2 ORE FA",
+    "category": "GAMING",
+    "tag": "NINTENDO",
+    "title": "In arrivo un nuovo gioco Nintendo: Avventura colorata nel mondo dei funghi"
+  },
+  {
+    "comment": "8",
+    "timing": "3 ORE FA",
+    "category": "GAMING",
+    "tag": "MOBILE",
+    "title": "Esperienza di gioco mobile rivoluzionaria: Grafica da console sul tuo smartphone"
+  },
+  {
+    "comment": "7",
+    "timing": "4 ORE FA",
+    "category": "GAMING",
+    "tag": "RETRO",
+    "title": "Torna indietro nel tempo con i classici: Console retrò in edizione limitata"
+  },
+  {
+    "comment": "22",
+    "timing": "5 ORE FA",
+    "category": "GAMING",
+    "tag": "VR",
+    "title": "Realtà virtuale all'avanguardia: Esplora mondi digitali con il nuovo visore"
+  },
+  {
+    "comment": "14",
+    "timing": "6 ORE FA",
+    "category": "GAMING",
+    "tag": "ESPORTS",
+    "title": "Competizioni di esports in crescita: Nuovi talenti emergono nel mondo del gaming"
+  },
+  {
+    "comment": "11",
+    "timing": "7 ORE FA",
+    "category": "GAMING",
+    "tag": "INDIE",
+    "title": "Scopri il nuovo gioco indie: Una storia avvincente creata da uno sviluppatore solitario"
+  },
+  {
+    "comment": "30",
+    "timing": "8 ORE FA",
+    "category": "GAMING",
+    "tag": "STREAMING",
+    "title": "La piattaforma di streaming di giochi introduce nuove funzionalità: Gioca senza download"
+  },
+  {
+    "comment": "25",
+    "timing": "12 MINUTI FA",
+    "category": "GAMING",
+    "tag": "PLAYSTATION",
+    "title": "Annunciato nuovo titolo esclusivo per PlayStation: I giocatori non vedono l'ora"
+  },
+  {
+    "comment": "18",
+    "timing": "30 MINUTI FA",
+    "category": "GAMING",
+    "tag": "XBOX",
+    "title": "Xbox Game Pass si espande: Ulteriori giochi incredibili aggiunti alla libreria"
+  },
+  {
+    "comment": "12",
+    "timing": "1 ORA FA",
+    "category": "GAMING",
+    "tag": "PC",
+    "title": "Nuova generazione di schede grafiche: Prestazioni mai viste prima"
+  },
+  {
+    "comment": "15",
+    "timing": "2 ORE FA",
+    "category": "GAMING",
+    "tag": "NINTENDO",
+    "title": "In arrivo un nuovo gioco Nintendo: Avventura colorata nel mondo dei funghi"
+  },
+  {
+    "comment": "8",
+    "timing": "3 ORE FA",
+    "category": "GAMING",
+    "tag": "MOBILE",
+    "title": "Esperienza di gioco mobile rivoluzionaria: Grafica da console sul tuo smartphone"
+  },
+  {
+    "comment": "7",
+    "timing": "4 ORE FA",
+    "category": "GAMING",
+    "tag": "RETRO",
+    "title": "Torna indietro nel tempo con i classici: Console retrò in edizione limitata"
+  },
+  {
+    "comment": "22",
+    "timing": "5 ORE FA",
+    "category": "GAMING",
+    "tag": "VR",
+    "title": "Realtà virtuale all'avanguardia: Esplora mondi digitali con il nuovo visore"
+  },
+  {
+    "comment": "14",
+    "timing": "6 ORE FA",
+    "category": "GAMING",
+    "tag": "ESPORTS",
+    "title": "Competizioni di esports in crescita: Nuovi talenti emergono nel mondo del gaming"
+  },
+  {
+    "comment": "11",
+    "timing": "7 ORE FA",
+    "category": "GAMING",
+    "tag": "INDIE",
+    "title": "Scopri il nuovo gioco indie: Una storia avvincente creata da uno sviluppatore solitario"
+  },
+  {
+    "comment": "30",
+    "timing": "8 ORE FA",
+    "category": "GAMING",
+    "tag": "STREAMING",
+    "title": "La piattaforma di streaming di giochi introduce nuove funzionalità: Gioca senza download"
+  },
+  {
+    "comment": "25",
+    "timing": "12 MINUTI FA",
+    "category": "GAMING",
+    "tag": "PLAYSTATION",
+    "title": "Annunciato nuovo titolo esclusivo per PlayStation: I giocatori non vedono l'ora"
+  },
+  {
+    "comment": "18",
+    "timing": "30 MINUTI FA",
+    "category": "GAMING",
+    "tag": "XBOX",
+    "title": "Xbox Game Pass si espande: Ulteriori giochi incredibili aggiunti alla libreria"
+  },
+  {
+    "comment": "12",
+    "timing": "1 ORA FA",
+    "category": "GAMING",
+    "tag": "PC",
+    "title": "Nuova generazione di schede grafiche: Prestazioni mai viste prima"
+  },
+  {
+    "comment": "15",
+    "timing": "2 ORE FA",
+    "category": "GAMING",
+    "tag": "NINTENDO",
+    "title": "In arrivo un nuovo gioco Nintendo: Avventura colorata nel mondo dei funghi"
+  },
+  {
+    "comment": "8",
+    "timing": "3 ORE FA",
+    "category": "GAMING",
+    "tag": "MOBILE",
+    "title": "Esperienza di gioco mobile rivoluzionaria: Grafica da console sul tuo smartphone"
+  },
+  {
+    "comment": "7",
+    "timing": "4 ORE FA",
+    "category": "GAMING",
+    "tag": "RETRO",
+    "title": "Torna indietro nel tempo con i classici: Console retrò in edizione limitata"
+  },
+  {
+    "comment": "22",
+    "timing": "5 ORE FA",
+    "category": "GAMING",
+    "tag": "VR",
+    "title": "Realtà virtuale all'avanguardia: Esplora mondi digitali con il nuovo visore"
+  },
+  {
+    "comment": "14",
+    "timing": "6 ORE FA",
+    "category": "GAMING",
+    "tag": "ESPORTS",
+    "title": "Competizioni di esports in crescita: Nuovi talenti emergono nel mondo del gaming"
+  },
+  {
+    "comment": "11",
+    "timing": "7 ORE FA",
+    "category": "GAMING",
+    "tag": "INDIE",
+    "title": "Scopri il nuovo gioco indie: Una storia avvincente creata da uno sviluppatore solitario"
+  },
+  {
+    "comment": "30",
+    "timing": "8 ORE FA",
+    "category": "GAMING",
+    "tag": "STREAMING",
+    "title": "La piattaforma di streaming di giochi introduce nuove funzionalità: Gioca senza download"
+  },
+  {
+    "comment": "25",
+    "timing": "12 MINUTI FA",
+    "category": "GAMING",
+    "tag": "PLAYSTATION",
+    "title": "Annunciato nuovo titolo esclusivo per PlayStation: I giocatori non vedono l'ora"
+  },
+  {
+    "comment": "18",
+    "timing": "30 MINUTI FA",
+    "category": "GAMING",
+    "tag": "XBOX",
+    "title": "Xbox Game Pass si espande: Ulteriori giochi incredibili aggiunti alla libreria"
+  },
+  {
+    "comment": "12",
+    "timing": "1 ORA FA",
+    "category": "GAMING",
+    "tag": "PC",
+    "title": "Nuova generazione di schede grafiche: Prestazioni mai viste prima"
+  },
+  {
+    "comment": "15",
+    "timing": "2 ORE FA",
+    "category": "GAMING",
+    "tag": "NINTENDO",
+    "title": "In arrivo un nuovo gioco Nintendo: Avventura colorata nel mondo dei funghi"
+  },
+  {
+    "comment": "8",
+    "timing": "3 ORE FA",
+    "category": "GAMING",
+    "tag": "MOBILE",
+    "title": "Esperienza di gioco mobile rivoluzionaria: Grafica da console sul tuo smartphone"
+  },
+  {
+    "comment": "7",
+    "timing": "4 ORE FA",
+    "category": "GAMING",
+    "tag": "RETRO",
+    "title": "Torna indietro nel tempo con i classici: Console retrò in edizione limitata"
+  },
+  {
+    "comment": "22",
+    "timing": "5 ORE FA",
+    "category": "GAMING",
+    "tag": "VR",
+    "title": "Realtà virtuale all'avanguardia: Esplora mondi digitali con il nuovo visore"
+  },
+  {
+    "comment": "14",
+    "timing": "6 ORE FA",
+    "category": "GAMING",
+    "tag": "ESPORTS",
+    "title": "Competizioni di esports in crescita: Nuovi talenti emergono nel mondo del gaming"
+  },
+  {
+    "comment": "11",
+    "timing": "7 ORE FA",
+    "category": "GAMING",
+    "tag": "INDIE",
+    "title": "Scopri il nuovo gioco indie: Una storia avvincente creata da uno sviluppatore solitario"
+  },
+  {
+    "comment": "30",
+    "timing": "8 ORE FA",
+    "category": "GAMING",
+    "tag": "STREAMING",
+    "title": "La piattaforma di streaming di giochi introduce nuove funzionalità: Gioca senza download"
+  }
+]

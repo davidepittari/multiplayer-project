@@ -10,18 +10,22 @@ import CommentBubble from "../other/CommentBubble";
 //CSS
 import "./NewsCard.css";
 
-function NewsCard({ timing, category, tag, title, comment }) {
+function NewsCard({ timing, category, tag, title, comment, imagePresent }) {
   return (
     <>
       <article className="flex flex-row p-4">
-        <figure className="relative flex items-center justify-center w-48 h-32 mr-4">
+        {
+          imagePresent ? 
+          <figure className="relative flex items-center justify-center w-48 h-32 mr-4">
           <img className="w-full h-full object-cover" src={img} alt="img" />
           <CommentBubble comment={comment} />
-        </figure>
+        </figure> : ""
+        }
+
         <div className="w-full flex flex-col justify-center">
-          <span className="flex flex-row text-xs text-white font-bold mb-2">
+          <span className="flex flex-row text-xs tracking-tighter text-white font-bold mb-2">
             <p>
-              <span className="text-[#666666]">{timing} |</span>
+              <span className="text-eight">{timing} |</span>
               <span className="text-fourth pl-1">{category} |</span>
               <span className="text-third pl-1">{tag}</span>
             </p>
