@@ -4,6 +4,7 @@ import React from "react";
 import newsTest from "../../assets/json/News.json";
 import NewsCard from "../../components/cards/NewsCard";
 import AdsPlace from "../../components/other/AdsPlace";
+import Button from "../../components/buttons/Button";
 
 function NewsSection() {
   const newsChunks = [
@@ -30,11 +31,12 @@ function NewsSection() {
               />
             </React.Fragment>
           ))}
-          {chunkIndex !== chunk.length - 1 && (
-            <AdsPlace/>
-          )}
+          {chunkIndex !== newsChunks.length - 1 && <AdsPlace />}
         </div>
       ))}
+      <div className="flex justify-center">
+        <Button>LEGGI LE ALTRE NOTIZIE</Button>
+      </div>
     </section>
   );
 }

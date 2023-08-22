@@ -2,7 +2,7 @@
 import React from "react";
 
 //COMPONENTS SVG
-import Logo from "../components/svg/Logo";
+import {Logo} from "../components/svg/logo/Logo";
 import Menu from "../components/svg/Menu";
 import UserIcon from "../components/svg/UserIcon";
 

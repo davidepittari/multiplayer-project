@@ -32,6 +32,8 @@ module.exports = {
       'seventh': '#FDD0D3',
       'eight': '#666666',
       'ads': '#1D1D1D',
+      'footer': '#1A1A1A',
+      'btnhover': '#F72927',
     },
     fontFamily: {
       maven: ['Maven Pro', 'sans-serif'],
