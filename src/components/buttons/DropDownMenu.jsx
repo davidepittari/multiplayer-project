@@ -48,11 +48,11 @@ function DropDownMenu(props) {
   return (
     <>
       <li
-        className={`relative flex flex-col p-2 menu cursor-pointer h-full justify-center items-center ${
+        className={`relative flex flex-col menu cursor-pointer h-full justify-center items-center ${
           isOpen ? "bg-third" : ""
         }`}
       >
-        <button className="relative" onClick={toggleMenu}>
+        <button className="relative flex gap-1 items-center" onClick={toggleMenu}>
           {props.children}
         </button>
         {isOpen && (
