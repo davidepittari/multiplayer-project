@@ -5,5 +5,6 @@ import { Live } from "./Live";
 import { Games } from "./Games";
 import { Close } from "./Close";
 import { Comment } from "./Comment";
+import { Checkbox } from "./Checkbox";
 
-export {Star, Video, News, Live, Games, Close, Comment};
+export {Star, Video, News, Live, Games, Close, Comment, Checkbox};
