@@ -25,3 +25,24 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     pointer-events: none;
 }
+
+.article-card {
+    position: relative;
+    cursor: pointer;
+    /* Aggiungi altri stili desiderati per la card */
+}
+
+.article-card:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Colore di sfondo quasi trasparente */
+    z-index: 1;
+    /* Assicurati che il layer sia sopra l'immagine e il contenuto */
+    pointer-events: none;
+    /* Per consentire l'interazione con gli elementi sottostanti */   
+}

@@ -43,6 +43,9 @@ module.exports = {
       height: {
         'screen-vw': '100vw',
       },
+      minWidth:{
+        '1/3': '33,3333%',
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',

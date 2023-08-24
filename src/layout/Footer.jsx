@@ -16,7 +16,7 @@ function Footer() {
 
   return (
     <footer>
-      <section className="bg-footer border-t border-primary fill-white flex flex-col md:flex-row gap-6 text-white text-lg p-4 leading-7">
+      <section className="bg-footer border-t border-primary fill-white flex flex-col md:flex-row gap-6 text-white text-lg p-4 leading-7 text-center md:text-start md:max-w-[1140px]">
         <div className="flex flex-col gap-6 w-full">
           <Logo height={multiLogoHeight} />
           <Social height={socialHeight} />
