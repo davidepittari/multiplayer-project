@@ -13,7 +13,7 @@ import "./NewsCard.css";
 function NewsCard({ timing, category, tag, title, comment, imagePresent }) {
   return (
     <>
-      <article className="h-fit md:w-full">
+      <article className="h-fit md:w-1/2 md:px-1 lg:w-full">
         <div className="flex flex-row my-2">
           {imagePresent ? (
             <figure className="relative flex items-center justify-center w-48 h-32 mr-4">

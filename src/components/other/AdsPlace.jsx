@@ -6,13 +6,13 @@ function AdsPlace({ desktop }) {
     <>
       <div
         id="mobile"
-        className="lg:hidden min-h-[600px] w-screen bg-sixth bg-repeat m-1"
+        className="lg:hidden min-h-[600px] w-screen bg-sixth bg-repeat m-1 opacity-20"
         style={{ backgroundImage: `url(${adsImage})` }}
       ></div>
       {desktop && (
         <div
           id="desktop"
-          className="min-h-[600px] bg-sixth bg-repeat m-1"
+          className="min-h-[600px] bg-sixth bg-repeat m-1 opacity-30"
           style={{ backgroundImage: `url(${adsImage})` }}
         ></div>
       )}

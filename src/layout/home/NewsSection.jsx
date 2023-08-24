@@ -21,7 +21,7 @@ function NewsSection() {
         {newsChunks.map((chunk, chunkIndex) => (
           <div
             key={chunkIndex}
-            className="flex flex-row flex-wrap md:flex-col "
+            className="flex flex-row flex-wrap lg:flex-col "
           >
             {chunk.map((news, newsIndex) => (
               <React.Fragment key={newsIndex}>

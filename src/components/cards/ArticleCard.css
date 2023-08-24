@@ -29,7 +29,6 @@
 .article-card {
     position: relative;
     cursor: pointer;
-    /* Aggiungi altri stili desiderati per la card */
 }
 
 .article-card:hover::before {
@@ -40,9 +39,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.05);
-    /* Colore di sfondo quasi trasparente */
     z-index: 1;
-    /* Assicurati che il layer sia sopra l'immagine e il contenuto */
     pointer-events: none;
-    /* Per consentire l'interazione con gli elementi sottostanti */   
 }
