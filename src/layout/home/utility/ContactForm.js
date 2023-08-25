@@ -18,7 +18,7 @@ function ContactForm() {
                 <option>Bug</option>
                 <option>Complimenti</option>
             </select>
-            <textarea placeholder="Scrivi il tuo messaggio..." className="bg-primary min-h-[80px] border-gray-light border outline-none"></textarea>
+            <textarea placeholder="Scrivi il tuo messaggio..." className="bg-primary min-h-[80px] border-gray-light border outline-none p-1"></textarea>
             <Button>INVIA</Button>
         </section>
     )

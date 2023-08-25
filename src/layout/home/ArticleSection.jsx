@@ -11,7 +11,7 @@ function ArticleSection() {
   const firstArticle = ArticleTest.at(0);
 
   return (
-    <section className="border-third border-t-4 border-b-4 lg:border-b-0 overflow-x-auto lg:max-w-[1140px]">
+    <section className="border-third border-t-4 border-b-4 lg:border-t-0 lg:border-b-0 overflow-x-auto lg:max-w-[1140px]">
       <div id="mobile" className="lg:hidden">
         <ArticleCard
           title={firstArticle.title}
