@@ -18,7 +18,7 @@ function Button(props) {
   }
 
   return (
-    <button className={`${bgColor} text-white font-bold text-lg px-4 py-2 h-full max-h-12 ${bgHoverColor} transition-all duration-300 text-center`}>
+    <button className={`${bgColor} text-white font-bold text-lg px-4 py-2 w-full h-full max-h-12 ${bgHoverColor} transition-all duration-300 text-center`}>
       {props.children}
     </button>
   );

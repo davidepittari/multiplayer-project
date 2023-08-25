@@ -1,5 +1,5 @@
 //REACT
-import React from "react";
+import React, { useState } from "react";
 
 //COMPONENTS SVG
 import { Logo } from "../components/svg/logo/Logo";
@@ -13,15 +13,27 @@ import SearchGlass from "../components/buttons/SearchGlass";
 //CSS
 import "./Navbar.css";
 import Button from "../components/buttons/Button";
+import LoginModal from "../components/auth/LoginModal";
 
 function Navbar() {
   const standardHeight = "1.5em";
   const userHeight = "2em";
   const desktopHeight = "0.9em";
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+    console.log("aperto");
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <>
-      <nav className="relative flex bg-primary lg:bg-opacity-80 justify-between min-h-fit lg:fixed lg:top-0 z-50 w-full backdrop-filter backdrop-blur backdrop-saturate-150 backdrop-brightness-125">
+      <nav className="flex bg-primary lg:bg-opacity-80 justify-between min-h-fit lg:fixed lg:top-0 z-50 w-full backdrop-filter backdrop-blur backdrop-saturate-150 backdrop-brightness-125">
         <div className="flex flex-row items-center fill-white">
           <div className="h-full lg:hidden">
             <DropDownMenu>
@@ -50,14 +62,17 @@ function Navbar() {
             <Button color={"none"}>LIVE</Button>
             <Button color={"none"}>GIOCHI</Button>
           </div>
-          <span className="p-2 glass cursor-pointer fill-secondary">
+          <span className="p-2 cursor-pointer fill-secondary hover:fill-third">
             <SearchGlass />
           </span>
-          <span className="p-2 user cursor-pointer fill-fourth">
-            <UserIcon height={userHeight} />
+          <span className="p-2 cursor-pointer fill-fourth hover:fill-third items-center flex ">
+            <button onClick={openModal}>
+              <UserIcon height={userHeight} />
+            </button>
           </span>
         </div>
       </nav>
+      <LoginModal isOpen={isModalOpen} onClose={closeModal} />
     </>
   );
 }
