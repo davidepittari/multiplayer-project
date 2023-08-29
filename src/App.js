@@ -30,9 +30,7 @@ function App() {
 const Root = () => {
   return (
     <>
-      <Navbar/>
       <Outlet />
-      <Footer/>
     </>
   )
 }

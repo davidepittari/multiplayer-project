@@ -47,16 +47,16 @@ function DropDownMenu(props) {
 
   return (
     <>
-      <li
-        className={`relative flex flex-col p-2 menu cursor-pointer h-full justify-center items-center ${
+      <div
+        className={`relative flex flex-col menu cursor-pointer h-full px-2 justify-center items-center hover:fill-white hover:bg-third ${
           isOpen ? "bg-third" : ""
         }`}
       >
-        <button className="relative" onClick={toggleMenu}>
+        <button className="relative text-lg text-white font-bold flex gap-1 h-full items-center" onClick={toggleMenu}>
           {props.children}
         </button>
         {isOpen && (
-          <ul className="absolute flex flew-row flex-wrap bg-sixth border-t-4 border-third w-screen left-0 top-full text-secondary font-bold tracking-tighter p-2">
+          <ul className="absolute flex flew-row flex-wrap bg-sixth border-t-4 border-third w-screen left-0 top-full text-secondary font-bold tracking-tighter p-2 z-50">
             {dropMenuSectionMain.map((item) => (
               <li className="w-1/2 pr-2 py-2 flex flex-row items-center">
                 <div className="pr-1">{item.icon}</div>
@@ -72,7 +72,7 @@ function DropDownMenu(props) {
             ))}
           </ul>
         )}
-      </li>
+      </div>
     </>
   );
 }

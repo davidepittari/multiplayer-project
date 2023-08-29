@@ -1,15 +1,31 @@
 //REACT
-import React from 'react'
-import ArticleCard from '../components/cards/ArticleCard'
+import React from "react";
+
+//COMPONENTS
+import ArticleSection from "./home/ArticleSection";
+import NewsSection from "./home/NewsSection";
+import Footer from "./Footer";
+import ArticleSideSection from "./home/ArticleSideSection";
+import UtilitySideSection from "./home/UtilitySideSection";
+import Navbar from "./Navbar";
 
 function Main() {
   return (
-    <section>
-      <ArticleCard title={"Tutte le domande e risposte dal Q&A di Starfield"} tag={"STARFIELD"} category={"SPECIALE"} comment={"0"}/>
-      <ArticleCard title={"Tutte le domande e risposte dal Q&A di Starfield"} tag={"STARFIELD"} category={"SPECIALE"} comment={"0"}/>
-      Main
-    </section>
-  )
+    <div className="relative">
+    <Navbar/>
+      <main className="flex flex-col lg:items-center">
+        <ArticleSection />
+        <div className="flex flex-row mt-2 lg:w-[1140px]">
+          <NewsSection />
+          <div className="w-full flex flex-row">
+            <ArticleSideSection />
+            <UtilitySideSection />
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default Main
+export default Main;

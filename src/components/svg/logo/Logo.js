@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-function Logo(props) {
+export const Logo = (props) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" height={props.height} viewBox="0 0 294.46 36.3">
       <path
@@ -57,7 +57,6 @@ function Logo(props) {
       ></path>
       <circle cx="259.44" cy="26.24" r="3.78"></circle>
     </svg>
-  );
+  )
 }
 
-export default Logo;

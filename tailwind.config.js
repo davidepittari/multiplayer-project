@@ -20,7 +20,7 @@ module.exports = {
       'yellow': '#ffc82c',
       'gray-dark': '#272524',
       'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'gray-light': '#4B4B4B',
       'white': '#ffffff',
       'black': '#000000',
       'primary': '#252525',
@@ -30,6 +30,10 @@ module.exports = {
       'fifth': '#F7D039',
       'sixth': '#181818',
       'seventh': '#FDD0D3',
+      'eight': '#666666',
+      'ads': '#1D1D1D',
+      'footer': '#1A1A1A',
+      'btnhover': '#F72927',
     },
     fontFamily: {
       maven: ['Maven Pro', 'sans-serif'],
@@ -37,7 +41,10 @@ module.exports = {
     },
     extend: {
       height: {
-        'screen-vh': '100vw',
+        'screen-vw': '100vw',
+      },
+      minWidth:{
+        '1/3': '33,3333%',
       },
       spacing: {
         '128': '32rem',
@@ -45,6 +52,9 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      boxShadow: {
+        'light-white': '0 0 50px rgba(230,230,230,.25)',
       }
     },
   },
